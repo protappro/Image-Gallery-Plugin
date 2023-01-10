@@ -1,0 +1,58 @@
+.casket_card {
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+    clear: both;
+    padding: 0;
+    padding: 10px;
+    background-color: #ccc;
+    border-radius: 5px;
+}
+.casket_list a:hover{
+    text-decoration: none;
+}
+.casket_list > div { padding-bottom: 30px; }
+.casket_list .casket-box { padding: 10px;  box-shadow: 1px 2px 5px #c7c7c7; height: 100%; }
+.casket_list .casket-box h6 { font-family: 'Playfair Display'; font-style: italic; color: #5a616b; }
+
+.page-casket-title-small { letter-spacing: 6px; }
+.page-casket-title{
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 700;
+    color: #2c4b6a;
+    text-align: left;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+.page-casket-title-sub{
+    color: #5a616b;
+    text-align: left;
+    letter-spacing: 6px;
+}
+.fancybox-nav {
+    width: 60px;       
+}
+.fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+.fancybox-nav:hover span {
+    opacity: 1;
+}
+.fancybox-next {
+    right: -60px;
+}
+.fancybox-prev {
+    left: -60px;
+}
+.fancybox-title-float-wrap .child {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border-radius:5px;
+}
+@media only screen and (max-width: 992px) {
+    .page-casket-title-small { letter-spacing: 2px; }
+    .page-casket-title { font-size: 28px; }
+    .page-casket-title-sub { letter-spacing: 2px; }
+}
