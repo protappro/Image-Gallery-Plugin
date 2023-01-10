@@ -1,0 +1,25 @@
+.team-member-form-field label {
+	font-size: 14px;
+}
+.team-member-form-field .team_member_job_title{ width:100%; }
+
+.team_profile_photo img{
+	max-width: 70px;
+}
+ul.sortable_team_member li.ui-sortable-handle{
+	font-size: 16px;
+	line-height: 2rem;
+	font-weight: 500;
+}
+span.move_team_member i {
+	font-size: 14px;
+    vertical-align: middle;
+    float: left;
+    position: relative;
+    top: 9px;
+    margin-right: 5px;
+    cursor: move;
+}
+.order_submit_btn{
+	margin: 15px 30px 15px 13px !important;
+}

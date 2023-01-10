@@ -1,0 +1,41 @@
+.btn-primary {
+    color: #fff;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(38 143 255 / 50%) !important;
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #0062cc !important;
+    border-color: #005cbf !important;
+}
+.team_member_list > div {
+    padding-bottom: 30px;
+}
+.team_member_list div.team_member_card { border-top: 6px solid #29395a; box-shadow: 0px 2px 5px #c7c7c7; cursor: pointer; }
+.team_member_list div.card-body { border-top: 6px solid #29395a; }
+.team_member_list .team_member_card h3 {
+	font-size: 18px;
+	font-family: 'Playfair Display';
+    font-style: italic;
+    color: #5a616b;
+}
+.team_member_list .team_member_card p.job-title {
+	letter-spacing: 4px;
+}
+.team_member_deatils_wrapper h4{	
+    font-size: 20px;
+}
+.team_member_deatils_wrapper h6{	
+    font-size: 16px;
+}
+.team_member_deatils_wrapper p{	
+    font-size: 14px;
+}
+@media only screen and (max-width: 992px) {
+    .team_member_deatils_wrapper h4{
+            margin-top: 20px;
+    }
+}
